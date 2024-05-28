@@ -14,12 +14,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.stockmarkteapp.Greeting
 import com.example.stockmarkteapp.domain.model.CompanyList
-import com.example.stockmarkteapp.ui.theme.StockMarkteAppTheme
 
 @Composable
 fun CompanyItem(
