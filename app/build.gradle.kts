@@ -74,6 +74,9 @@ dependencies {
     // OpenCSV
     implementation ("com.opencsv:opencsv:5.5.2")
 
+    //compose nav destination
+    implementation("io.github.raamcosta.compose-destinations:core:1.10.0")
+    ksp ("io.github.raamcosta.compose-destinations:ksp:1.10.0")
     // Compose dependencies
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
     implementation ("androidx.compose.material:material-icons-extended:1.6.7")
