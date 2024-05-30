@@ -14,6 +14,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -45,14 +46,14 @@ fun CompanyInfoScreen(
                     fontWeight = FontWeight.Bold,
                     fontSize = 18.sp,
                     overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.fillMaxSize()
+                    modifier = Modifier.fillMaxWidth()
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = company.symbol,
                     fontStyle = FontStyle.Italic,
                     fontSize = 14.sp,
-                    modifier = Modifier.fillMaxSize()
+                    modifier = Modifier.fillMaxWidth()
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Divider(
@@ -93,7 +94,7 @@ fun CompanyInfoScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(250.dp)
-                            .align(Alignment.CenterHorizontally)
+                            .align(CenterHorizontally)
                     )
                 }
             }
